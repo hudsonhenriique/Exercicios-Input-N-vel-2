@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 1280px;
+  gap: 70px;
+  font-family: "Space Grotesk";
+  background-color: #18161f;
+}
+
+#blur {
+  position: absolute;
+  width: 100px;
+  height: 730.39px;
+  background: linear-gradient(
+    135deg,
+    #00d9c0 0%,
+    #00cbcb 35.42%,
+    #00bcd8 69.79%,
+    #00a8e8 100%
+  );
+  filter: blur(150px);
+  transform: rotate(-48deg);
+  left: 740px;
+  top: 230px;
+  z-index: 1;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 70.2px;
+  z-index: 3;
+}
+
+header .btns-header {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 30px;
+}
+
+header .btns-header .btn-student {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 36px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+header .btns-header .btn-student p {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 24px;
+  font-weight: 400;
+  display: inline;
+}
+header .btns-header .btn-subscribe {
+  display: flex;
+  align-items: center;
+  padding: 16px 36px;
+  border-radius: 90px;
+  background: none;
+  border: 1px solid #49445f;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  gap: 50px;
+  padding: 0 72px;
+  z-index: 2;
+}
+
+#headline {
+  width: 680px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#headline .headline-lightning {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+
+#headline .headline-lightning {
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 14px;
+  color: #d6d4e2;
+  font-weight: 400;
+}
+
+#headline h1 {
+  width: 620px;
+  font-size: 52px;
+  line-height: 64px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+#headline .headline-subtitle {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #d6d4e2;
+}
+
+.btn-vacancy {
+  width: 290px;
+  border-radius: 90px;
+  border: none;
+  background-color: #00d9c0;
+  padding: 24px 48px;
+  color: #18161f;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#img-bruno {
+  /* position: absolute; */
+  width: 826.82px;
+  height: 709px;
+  left: 632px;
+  top: 143.5px;
+}
+/* @media screen and (max-width: 800px) {
+  header {
+    flex-direction: column;
+  }
+  .btns-header {
+    flex-direction: column;
+  }
+} */

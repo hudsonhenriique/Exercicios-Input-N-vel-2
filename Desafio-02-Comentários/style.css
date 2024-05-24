@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: #d6d4e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Space Grotesk";
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.comments {
+  display: flex;
+  width: 720px;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #ffffff;
+  gap: 24px;
+  padding: 24px 56px;
+  border-radius: 32px;
+}
+
+.comments .comment {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.comments .comment-a {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.comments .user-profile {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8px;
+}
+
+.comments .user-profile .details-comment {
+  font-size: 24px;
+  line-height: 32px;
+  color: #18161f;
+  font-weight: 400;
+}
+
+.comments .user-profile .user {
+  display: flex;
+  gap: 0.5px;
+}
+
+.comments .user-profile h3 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #18161f;
+}
+
+.comments .user-profile p {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #777777;
+}
+
+.comments:nth-child(3) {
+  padding: 24px 56px 0;
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+  background-color: #f5f4f6;
+  border-radius: 0 0 32px 32px;
+  padding: 24px 56px;
+  width: 720px;
+  align-self: center;
+  gap: 3px;
+}
+
+.likes p {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.likes p span {
+  font-weight: 700;
+  margin-right: 5px;
+}

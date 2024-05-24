@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Space Grotesk";
+  background-color: #e5e5e5;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  padding: 72px;
+  gap: 48px;
+}
+
+.container .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8px;
+}
+
+#container .cards {
+  display: flex;
+  gap: 32px;
+}
+
+#container .text p {
+  font-size: 24px;
+  line-height: 32px;
+  color: #787491;
+  font-weight: 400;
+}
+
+#container .text h3 {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 700;
+  color: #18161f;
+}
+
+#container .cards {
+  display: flex;
+  gap: 32px;
+}
+
+#container .card {
+  background-color: #ffffff;
+  width: 320px;
+  border-radius: 32px;
+  border: 2px solid #d6d4e2;
+}
+
+.banner {
+  width: 316px;
+}
+
+#container .card .card-info {
+  display: flex;
+  flex-direction: column;
+  padding: 2px 24px;
+  gap: 16px;
+}
+
+#container .card .card-info h4 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #18161f;
+}
+
+#container .card .card-info .card-info-user {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+#container .card .card-info .card-info-user .user {
+  display: flex;
+  align-items: center;
+  gap: 0.5px;
+}
+
+#container .card .card-info .card-info-user .user h5 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #18161f;
+}
+
+#container .card .card-info .card-info-user .user p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #757575;
+}
+
+#container .card .card-info .statistics {
+  display: flex;
+  justify-content: space-between;
+}
+
+#container .card .card-info .statistics .comments,
+#container .card .card-info .statistics .viewers {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #787491;
+  font-weight: 500;
+}

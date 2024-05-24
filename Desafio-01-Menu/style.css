@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  background-color: #f5f4f6;
+  font-family: "Space Grotesk";
+  width: 100vh;
+  height: 100vh;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid #d6d4e2;
+  width: 256px;
+}
+
+.menu .profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.menu .head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu .head,
+.menu .profile {
+  border-bottom: 1px solid #d6d4e2;
+  height: 72px;
+  top: 72px;
+}
+
+.menu .profile .profile-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu .profile .profile-details h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #18161f;
+}
+
+.menu .profile .profile-details p {
+  font-size: 12px;
+  line-height: 16px;
+  color: #787491;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px;
+  gap: 32px;
+}
+
+.menu-items li {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.menu-items a {
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #18161f;
+}
